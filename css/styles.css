@@ -1,0 +1,111 @@
+﻿*{
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	font-family: "times new roman"
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../images/mountain.jpg") no-repeat center center fixed;
+	background-color: #00394d;
+	background-size:
+
+	/*-webkit-background-size: cover;*/
+	/*-moz-background-size: cover; */
+	/*-o-background-size: cover;*/
+	/*background-size: cover;*/
+}
+
+a:link, a:visited{
+	color:white;
+}
+
+body {
+	height: 100%; 
+}
+
+.container {
+	position: relative;
+}
+
+nav {
+	background-color: lightgrey;
+	opacity: 0.2;
+	position: absolute;
+	width: 230px;
+	height: 100%;
+	padding-left:20px;
+	padding-top: 200px;
+	min-width: 230px;
+	max-width:25%;
+}
+
+nav h2 {
+	text-align: center;
+	padding-top:;
+	padding-bottom: 12px;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+.nav_ul {
+	padding-bottom: 20px;
+}
+
+header {
+	color: red;
+	font-size: 30px;
+    text-align: center;
+	margin-left: 250px;
+	margin-right:250px;
+	margin-top: ;
+	min-width: 25%;
+	max-width: 75%;
+	max-height: 75%;
+	padding: 50px 0px 25px 0px;
+}
+
+section 
+{	margin-left: 250px;
+	margin-right: 250px;
+	padding: 0px 50px 0px 50px;
+	font-size: 19px;
+	color: black;
+	min-width: 25%;
+	max-width: 75%;
+	max-height: 75%;
+}
+
+.main {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color:lightgrey;
+	border: 2px solid black;
+	opacity: 0.8;
+}
+
+.footer {
+	padding-bottom: 30px;
+	padding-top:30px;
+}
+section h2 {
+	text-align: center;
+	color: white;
+}
+section h3 {
+	text-align: center;
+	padding-bottom: 12px;
+}
+
+.highlights{
+	text-align: left;
+	list-style-type: circle;
+}
+
+li {
+	bullets:none;
+}

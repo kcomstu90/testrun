@@ -1,0 +1,278 @@
+body {
+    padding-top: 65px;
+    background-image: url("../images/dark.png");
+}
+
+.initiatives {
+    width: 100%;
+    border-top: 1px solid #222;
+    margin-top: 40px;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+.player {
+    height: 120px;
+    display: block;
+    border-bottom: 1px solid #222;
+    padding: 10px 0;
+    clear: both;
+}
+
+.player .roll {
+    display: block;
+    width: 110px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    height: 100%;
+    background: linear-gradient(#222, #111);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.initiatives .roll .roll_text {
+    font-size: 80px;
+    display: block;
+    margin-top: -20px;
+    margin-bottom: -15px;
+}
+
+.initiatives .roll .label {
+    font-size: 16px;
+    display: block;
+    margin: -22px;
+    color: #555;
+}
+
+.initiatives .type_pc .roll {
+    color: #aaa;
+}
+
+.initiatives .type_npc .roll {
+    color: #222;
+    background: linear-gradient(#aaa, #ccc);
+} 
+
+.initiatives .name {
+    font-size: 90px;
+    display: block;
+    margin-left: 30px;
+    margin-top: -15px;
+    color: #ccc;
+    float: left;
+}
+
+.selected {
+    background: #ff9;
+}
+
+.initiatives .selected .name {
+    font-weight: bold;
+    color: #333;
+}
+
+.initiatives .selected .roll {
+    background: linear-gradient(to bottom, #ffa319, #e68a00);
+    color: #ffb;
+}
+
+.initiatives .selected .label {
+    color: #ffb;
+}
+
+.remove,
+.edit_entry,
+.remove_effect {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    color: #AAA;
+    padding-right: 10px;
+}
+
+.highlight_icon {
+    color: #FFF;
+}
+
+.selected .remove,
+.selected .edit_entry {
+    color: #333;
+}
+
+.selected .highlight_icon {
+    color: #fa1;
+}
+
+.no_results {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #565656;
+    color: #ccc;
+    text-shadow: 0px 2px 3px rgba(0,0,0,0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.advance_buttons {
+    padding-bottom: 20px;
+    width: 100%;
+    height: 60px;
+}
+
+.buttons {
+    display: block;
+    float: left;
+}
+
+.advance_buttons button {
+    width: 120px;
+}
+
+.round {
+    display: block;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -6px;
+    text-align: right;
+    color: #ccc;
+}
+
+#round_text {
+    display: inline-block;
+    background: #f51;
+    width: 2em;
+    text-align: center;
+    border-radius: 10px;
+    color: #EEE;
+}
+
+button#start,
+button#reset_rounds {
+    margin-left: 30px;
+}
+
+#bold_me {
+    font-weight: bold;
+    color: #FFF;
+}
+
+#darkened-btn {
+    border-color: #222;
+    background-color: #444;
+    margin-right: 10px;
+}
+
+#darkened-btn:hover {
+    border-color: #000;
+    background-color: #222;
+}
+
+/* All of the triggered events */
+.triggers {
+	display: block;
+	width: 100%;
+	color: #ccc;
+    margin-top: 50px;
+}
+
+.triggers .delay {
+	display: block;
+	min-height: 70px;
+	margin-top: 0px;
+	clear: both;
+    position: relative;
+}
+
+.triggers .delay {
+	background-color: rgba(255, 255, 255, .1);
+}
+
+.triggers .delay.inactive {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.triggers .round {
+	display: block;
+	float: left;
+	width: 2em;
+	text-align: center;
+	border-radius: 50px;
+	margin-top: 6px;
+	margin-left: 5px;
+	color: white;	
+}
+
+.triggers .delay .round.pc {
+	background: #428bca;
+}
+
+.triggers .delay .round.npc {
+    background: #428bca;;
+}
+
+.triggers .delay.inactive .round {
+	background: #2a2a2a;
+	color: #666;
+}
+
+.triggers .name,
+.triggers .effect {
+	display: block;
+	font-size: 40px;
+}
+
+.triggers .delay.inactive .name,
+.triggers .delay.inactive .source,
+.triggers .delay.inactive .effect {
+	color: #555;
+}
+
+.triggers .where {
+	display: block;
+	float: left;
+	padding-left: 10px;
+	margin-top: -4px;
+}
+
+.triggers .name {
+	font-weight: bold;
+	width: 400px;
+	height: 43px;
+	margin-bottom: 6px;
+}
+
+.remove_effect {
+    position: absolute;
+    top: 18px;
+    left: -40px;
+}
+
+.triggers .source {
+	display: block;
+	font-weight: bold;
+	float: left;
+	text-transform: uppercase;
+	padding-left: 2px;
+}
+
+.triggers .effect {
+	display: inline-block;
+	float: left;
+	font-size: 40px;
+	margin-top: 7px;
+	width: calc(100% - 400px - 2.5em);
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.triggers ::-webkit-scrollbar {
+    display: none;
+}
+
+textarea[name="description"] {
+    width: 280px;
+}
